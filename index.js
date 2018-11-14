@@ -1,1 +1,1 @@
-module.exports = require('./lib/Tweet/Tweet')
+module.exports = require('./src/components/Tweet/Tweet')
