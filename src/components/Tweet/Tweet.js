@@ -6,7 +6,6 @@ import Text from './Text'
 import Media from './Media'
 import Modal from './Modal'
 import Quote from './Quote'
-import Footer from './Footer'
 import styles from './styles'
 
 class Tweet extends React.Component {
@@ -93,7 +92,6 @@ class Tweet extends React.Component {
           </a>
           {MediaComponent}
           {QuoteComponent}
-          <Footer data={data} linkProps={linkProps} />
         </div>
         {modalActive ? <Modal data={data} modalIndex={modalIndex} /> : null}
       </div>
